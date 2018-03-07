@@ -76,3 +76,6 @@ fos_user:
     from_email:
         address: "noreply@tgarriz.com"
         sender_name: "No Reply"
+    registration:
+        form:
+            type: AppBundle\Form\RegistrationType

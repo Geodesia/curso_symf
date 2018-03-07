@@ -28,7 +28,8 @@ class CervezaController extends Controller
 
         return $this->render('cerveza/index.html.twig', array(
             'cervezas' => $cervezas,
-        ));
+            'usuario' => $this->getUser()
+            ));
     }
 
     /**
